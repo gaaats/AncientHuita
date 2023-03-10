@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gamfrjgtgtjgtihyjhyjihyijhyijhy"
+    app:startDestination="@id/gaamamamtmtmtm1111Fragment">
+
+    <fragment
+        android:id="@+id/gaamamamtmtmtm1111Fragment"
+        android:name="com.tocaboca.tocalifeworldy.frjirfjigtjigt.Gaamamamtmtmtm1111Fragment"
+        android:label="fragment_gaamamamtmtmtm1111"
+        tools:layout="@layout/fragment_gaamamamtmtmtm1111" >
+        <action
+            android:id="@+id/action_gaamamamtmtmtm1111Fragment_to_gaaaaaaaaa222Fragment"
+            app:destination="@id/gaaaaaaaaa222Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaaaaaaa222Fragment"
+        android:name="com.tocaboca.tocalifeworldy.frjirfjigtjigt.Gaaaaaaaaa222Fragment"
+        android:label="fragment_gaaaaaaaaa222"
+        tools:layout="@layout/fragment_gaaaaaaaaa222" >
+        <action
+            android:id="@+id/action_gaaaaaaaaa222Fragment_to_gaamamamtmtmtm1111Fragment"
+            app:destination="@id/gaamamamtmtmtm1111Fragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gaamamamtmtmtm1111Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
